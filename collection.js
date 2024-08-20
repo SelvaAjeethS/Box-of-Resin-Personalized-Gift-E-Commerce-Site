@@ -6,7 +6,7 @@ search.addEventListener("keyup", function () {
     var enteredValue = event.target.value.toUpperCase()
 
     for (count = 0; count < productlist.length; count = count + 1) {
-        var productname = productlist[count].querySelector("p").textContent
+        var productname = productlist[count].querySelector("h4").textContent
 
         if (productname.toUpperCase().indexOf(enteredValue) < 0) {
             productlist[count].style.display = "none"
@@ -16,3 +16,9 @@ search.addEventListener("keyup", function () {
         }
     }
 })
+
+//for redirecting to login page
+
+function redirectbutton(){
+    window.location.href = "login.html"
+}

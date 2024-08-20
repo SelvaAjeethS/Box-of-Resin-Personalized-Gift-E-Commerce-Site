@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('./assets/loginbackground1.jpg') no-repeat;
+    background: url('./assets/login-background4.jpg') no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -97,6 +97,11 @@
     font-size: 16px;
     color: #333;
     font-weight: 600;
+}
+
+button:hover {
+  background-color: rgb(235, 53, 84);
+  color: white;
 }
 
 .wrapper .register-link{

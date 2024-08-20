@@ -10,7 +10,9 @@
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Merienda:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 
     <!--My CSS-->
     <link rel="stylesheet" href="style.css">
@@ -26,15 +28,16 @@
 <body>
     <!--Navbar-->
     <nav class="navbar">
-        <a style="text-decoration: none; color: #161516;" href="index.html">
-            <h1>Box of Resin</h1>
-        </a>
-
+        <div class="navbar-logo" id="top">
+            <h1><img src="./assets/logo2.png" width="40px" height="40px"></h1>
+            <h1 style="font-family: Lobster, sans-serif; font-weight: 500; font-style: normal;">Box of Resin</h1>
+        </div>
         <div class="navbar-links">
             <p class="navbar-link"><a href="index.html">Home</a></p>
             <p class="navbar-link"><a href="collection.html">Collections</a></p>
             <p class="navbar-link"><a href="contact.html">Contacts</a></p>
-            <p class="navbar-link"><a href="login.html"><i class="fa-solid fa-user"></i></a></p>
+            <p class="navbar-link"><a href="login.html"><i class="fa-solid fa-user"
+                        style="color: rgb(139, 58, 72);"></i></a></p>
         </div>
 
         <div class="navbar-menu-toggle" onclick="showNavbar()">
@@ -52,7 +55,7 @@
             <p class="side-navbar-link"><a href="index.html">Home</a></p>
             <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
             <p class="side-navbar-link"><a href="contact.html">Contacts</a></p>
-            <p class="navbar-link"><a href="login.html"><i class="fa-solid fa-user"></i></a></p>
+            <p class="navbar-link"><a href="login.html">Login</a></p>
         </div>
     </div>
 
@@ -61,7 +64,7 @@
     <div class="product-section">
         <form class="product-search">
             <input type="text" id="search" placeholder="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass" style="color: rgb(139, 58, 72);"></i>
         </form>
 
         <div class="products" id="products">
@@ -69,328 +72,377 @@
             <!--Wooden frame preservation-->
 
             <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 1.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Wooden frame preservastion 2.jpg"
                     alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
+                <h4>Wooden frame preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 2.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Wooden frame preservastion 3.jpg"
                     alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
+                <h4>Wooden frame preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 3.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Wooden frame preservastion 4.jpg"
                     alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
+                <h4>Wooden frame preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 4.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Wooden frame preservastion 5.jpg"
                     alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
+                <h4>Wooden frame preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 5.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Wooden frame preservastion 6.jpg"
                     alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
+                <h4>Wooden frame preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 6.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Wooden frame preservastion 7.jpg"
                     alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
+                <h4>Wooden frame preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 7.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Wooden frame preservastion 8.jpg"
                     alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
-            </div>
-
-            <div class="products-box">
-                <img src="./assets/Wooden frame preservastion 8.jpg" style="width: 300px; height: 300px;"
-                    alt="Wooden frame preservation">
-                <p>Wooden frame preservation</p>
+                <h4>Wooden frame preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Alphabetic Keychain-->
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 1.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 1.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 2.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 2.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 3.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 3.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 4.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 4.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 5.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 5.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 6.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 6.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 7.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 7.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 8.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 8.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 9.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 9.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 10.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 10.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 11.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 11.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 12.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 12.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 13.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 13.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 14.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 14.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Alphabetic Keychain 15.jpg" style="width: 300px; height: 300px;" alt="Keychain">
-                <p>Alphabetic Keychain</p>
+                <img src="./assets/Alphabetic Keychain 15.jpg" alt="Keychain">
+                <h4>Alphabetic Keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Glow in dark keychain-->
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 1.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 1.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 2.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 2.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 3.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 3.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 4.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 4.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 5.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 5.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 6.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 6.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 7.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 7.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 8.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 8.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 9.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 9.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Glow in dark keychain 10.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Glow in dark keychain 10.jpg"
                     alt="Glow in dark keychain">
-                <p>Glow in dark keychain</p>
+                <h4>Glow in dark keychain</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Round frame-->
 
             <div class="products-box">
-                <img src="./assets/Round frame 1.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 1.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round frame 2.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 2.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round frame 3.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 3.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round frame 4.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 4.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round frame 5.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 5.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round frame 6.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 6.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round frame 7.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 7.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round frame 8.jpg" style="width: 300px; height: 300px;" alt="Round frame">
-                <p>Round frame</p>
+                <img src="./assets/Round frame 8.jpg" alt="Round frame">
+                <h4>Round frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Round love story frame.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Round love story frame.jpg"
                     alt="Round love story frame">
-                <p>Round love story frame</p>
+                <h4>Round love story frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Square frame-->
 
             <div class="products-box">
-                <img src="./assets/Square frame 1.jpg" style="width: 300px; height: 300px;" alt="Square frame">
-                <p>Square frame</p>
+                <img src="./assets/Square frame 1.jpg" alt="Square frame">
+                <h4>Square frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Square frame 2.jpg" style="width: 300px; height: 300px;" alt="Square frame">
-                <p>Square frame</p>
+                <img src="./assets/Square frame 2.jpg" alt="Square frame">
+                <h4>Square frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Square frame 3.jpg" style="width: 300px; height: 300px;" alt="Square frame">
-                <p>Square frame</p>
+                <img src="./assets/Square frame 3.jpg" alt="Square frame">
+                <h4>Square frame</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Car dashboard hanger-->
 
             <div class="products-box">
-                <img src="./assets/Car dashboard hanger 1.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Car dashboard hanger 1.jpg" 
                     alt="Car dashboard hanger">
-                <p>Car dashboard hanger</p>
+                <h4>Car dashboard hanger</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Car dashboard hanger 2.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Car dashboard hanger 2.jpg" 
                     alt="Car dashboard hanger">
-                <p>Car dashboard hanger</p>
+                <h4>Car dashboard hanger</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Car dashboard hanger 3.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Car dashboard hanger 3.jpg" 
                     alt="Car dashboard hanger">
-                <p>Car dashboard hanger</p>
+                <h4>Car dashboard hanger</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Car dashboard hanger 4.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Car dashboard hanger 4.jpg" 
                     alt="Car dashboard hanger">
-                <p>Car dashboard hanger</p>
+                <h4>Car dashboard hanger</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Car dashboard hanger 5.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Car dashboard hanger 5.jpg" 
                     alt="Car dashboard hanger">
-                <p>Car dashboard hanger</p>
+                <h4>Car dashboard hanger</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Bracelt-->
 
             <div class="products-box">
-                <img src="./assets/Bracelet with preservation.jpg" style="width: 300px; height: 300px;" alt="Bracelt">
-                <p>Bracelt</p>
+                <img src="./assets/Bracelet with preservation.jpg" alt="Bracelt">
+                <h4>Bracelt</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Thumb print wallet card-->
 
             <div class="products-box">
-                <img src="./assets/Thumb print wallet card 1.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Thumb print wallet card 1.jpg" 
                     alt="Thumb print wallet card">
-                <p>Thumb print wallet card</p>
+                <h4>Thumb print wallet card</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Thumb print wallet card 2.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Thumb print wallet card 2.jpg" 
                     alt="Thumb print wallet card">
-                <p>Thumb print wallet card</p>
+                <h4>Thumb print wallet card</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="products-box">
-                <img src="./assets/Thumb print wallet card 3.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Thumb print wallet card 3.jpg" 
                     alt="Thumb print wallet card">
-                <p>Thumb print wallet card</p>
+                <h4>Thumb print wallet card</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <!--Baby things preservation-->
 
             <div class="products-box">
-                <img src="./assets/Baby things preservation 1.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Baby things preservation 1.jpg" 
                     alt="Baby things preservation">
-                <p>Baby things preservation</p>
+                <h4>Baby things preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
              <div class="products-box">
-                <img src="./assets/Baby things preservation 2.jpg" style="width: 300px; height: 300px;"
+                <img src="./assets/Baby things preservation 2.jpg" 
                     alt="Baby things preservation">
-                <p>Baby things preservation</p>
+                <h4>Baby things preservation</h4>
+                <button onclick="redirectbutton()">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
         </div>
@@ -404,15 +456,16 @@
                 <h2 class="heading-text">Box of Resin</h2>
                 <p>When word fails, gifts speak.</p>
                 <div class="footer-icon-container">
-                    <a href="https://www.instagram.com/boxofresin/?igsh=MTNjOTBzZG9kdXUzMA%3D%3D"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-                    <a href="#"></a><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
-                    <a href="#"></a> <i class="fa-brands fa-telegram" style="color: #ffffff;"></i></a>
-                    <a href="#"></a><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                    <a href="https://www.instagram.com/boxofresin/?igsh=MTNjOTBzZG9kdXUzMA%3D%3D"><i
+                            class="fa-brands fa-instagram" style="color: #fd7ae1;"></i></a>
+                    <a href="#"></a><i class="fa-brands fa-x-twitter" style="color: #9ed9f5;"></i></a>
+                    <a href="#"></a> <i class="fa-brands fa-telegram" style="color: #6c98f8;"></i></a>
+                    <a href="#"></a><i class="fa-brands fa-facebook" style="color: #0b5bd3;"></i></a>
                 </div>
             </div>
         </div>
 
-        <p>BoxofResin.com</p>
+        <h4>BoxofResin.com</h4>
     </div>
 
     <!--My JS-->
